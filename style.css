@@ -1,0 +1,178 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+
+
+body{
+	font-family: serif;
+	background-color: #000000;
+	font-family: Alkatra;
+	color: white;
+}
+h1{
+	text-align: center;
+	text-transform:uppercase;
+}
+.tab-nav-container{
+	color: rgb(0, 0, 0);
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	display: flex;
+	justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 0.3em 1em;
+}
+
+.tab{
+	background: #ffffff;
+	border-radius:50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	padding: 20px 20px;
+	margin: 0 10px;
+	font-size: 1.2em;
+	transition: background 0.4 linear;
+}
+
+.tab i{
+	font-size: 1.2em;
+}
+
+.tab p{
+	font-weight:bold;
+	overflow: hidden;
+	max-width:0;
+}
+
+.tab.active p{
+	overflow: hidden;
+}
+.tab.active.purple{
+	background-color: rgba(91, 55, 183, 0.2);
+	color: rgba(91,55,183,1);
+}
+.tab.active.pink{
+	background-color: rgba(201, 55, 157, 0.2);
+	color: rgba(201, 55, 157, 1);
+}
+.tab.active.yellow{
+	background-color: rgba(230, 169, 25, 0.2);
+	color: rgba(230, 169, 25, 1);
+}
+.tab.active.teal{
+	background-color: rgba(28, 150, 162, 0.2);
+	color: rgba(28, 150, 162, 1);
+}
+
+@media (max-width: 450px){
+	.tab-nav-container{
+		padding: 5px;
+	}
+	
+	.tab {
+		padding: 0 1em;
+		margin: 0;
+	}
+	
+	.tab i{
+		font-size: 1em;
+	}
+}
+header{
+	background-color: #ffffff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	display: flex;
+	color: rgba(91,55,183,1);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0em 0.3em;
+  justify-content: space-between;
+  font-size: 1em;
+}
+.notification {
+	color: rgb(0, 0, 0);
+	float: right;
+	display: flex;
+	padding: 0px 10px;
+}
+.up {
+	font-size: 80%;
+}
+.post{
+	width: auto;
+	height: fit-content;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: white;
+	color: black;
+	padding: 0.6em 1em;
+}
+.post img{
+	width: max-content;
+	height: 100px;
+}
+h4 img{
+	width: 20px;
+	height: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+button {
+	background-color: rgb(0, 119, 255);
+	outline: none;
+	border: none;
+	box-shadow: rgba(20, 72, 216, 0.473) 0px 8px 24px;
+	padding: 0.4em 1em;
+	font-family: Alkatra;
+}
+input {
+	outline: none;
+	border: 0.1px solid gray;
+	color: black;
+	padding: 0.3em 1em;
+	font-family: Alkatra;
+	background-color: #ffffffee;
+	
+}
+h4 {
+	padding: 0.3em 0em;
+}
+.clock {
+    color: #5900ff;
+    font-size: 20px;
+    font-family: Alkatra;
+}
+.s input {
+	width: 200px;
+}
+.postw{
+	height: fit-content;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: rgb(32, 32, 32);
+	color: rgb(78, 199, 255);
+	padding: 0.6em 1em;
+}
+.postw img{
+	width: max-content;
+	height: 100px;
+}
+.u {
+	color: red;
+}
+select {
+	border: none;
+	background-color: #5900ff;
+	color: white;
+	padding: 0.6em 0.5em;
+}
+iframe {
+	width: 100%;
+	height: 1000px;
+}
